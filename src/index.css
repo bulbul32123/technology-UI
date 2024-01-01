@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    /* cursor: none; */
+    scroll-behavior: smooth;
+}
+
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+.active{
+    color: #37e90b;
+    font-size: 17px;
+}
+.MobileNavbar{
+    transition: all 0.6s linear;
+    position: absolute;
+    top: 90px;
+    border-radius: 20px;
+    background: #1a1a1a;
+    width: 200px;
+    right: 5px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.MobileNavbar a{
+    padding: 9px 0;
+}
+
+
+input{
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
